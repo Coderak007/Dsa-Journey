@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Coderak007/Dsa-Journey/tree/master/0268-missing-number) |
+| [3783-mirror-distance-of-an-integer](https://github.com/Coderak007/Dsa-Journey/tree/master/3783-mirror-distance-of-an-integer) |
 ## Binary Search
 |  |
 | ------- |
