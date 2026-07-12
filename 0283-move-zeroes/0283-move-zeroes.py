@@ -1,19 +1,21 @@
 class Solution:
-    def moveZeroes(self,a):
-        n = len(a)
-        j = -1
-
-        for i in range(n):
-            if a[i] == 0:
-                j = i
-                break 
-
-        if j == -1:
-            return a
-
-        for i in range(j+1 , n):
+    def moveZeroes(self, a):
+        temp = []
+        
+        for i in range(len(a)):
             if a[i] != 0:
-                a[i],a[j]=a[j],a[i] 
-                j += 1
-        return a           
-       
+                temp.append(a[i])
+            
+        nz = len(temp)
+        
+        for i in range(nz):
+            a[i] = temp[i]
+        
+        for i in range(nz , len(a)):
+            a[i] = 0
+
+        return a    
+
+
+
+    
